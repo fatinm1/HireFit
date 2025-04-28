@@ -1,0 +1,3 @@
+"""
+HireFit AI application package
+""" 
