@@ -2,9 +2,10 @@ import streamlit as st
 import requests
 from typing import Dict, List
 import json
+import os
 
-# API URL
-API_URL = "http://localhost:8000"
+# API URL from environment variable
+API_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
 def generate_interview_questions(resume_analysis: Dict) -> Dict:
     """Generate interview questions based on resume analysis"""

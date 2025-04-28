@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 
 # Configure the page
 st.set_page_config(
@@ -7,6 +8,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# Get backend URL from environment variable
+API_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
 # Modern CSS with a professional theme
 st.markdown("""

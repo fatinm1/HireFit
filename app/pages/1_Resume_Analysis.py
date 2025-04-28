@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# API URL
-API_URL = "http://localhost:8000"
+# API URL from environment variable
+API_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
 def analyze_resume(file: Any, job_description: str = None) -> Dict:
     """Send resume to backend for analysis"""

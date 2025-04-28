@@ -3,6 +3,10 @@ import requests
 from typing import Dict, List
 import json
 from datetime import datetime
+import os
+
+# API URL from environment variable
+API_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
 st.markdown("""
     <div style='text-align: center; padding: 2rem 0; background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%); border-radius: 12px; margin-bottom: 2rem;'>
