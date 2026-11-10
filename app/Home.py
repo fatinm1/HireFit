@@ -108,16 +108,16 @@ col1, col2, col3, col4 = st.columns(4)
 with col1:
     st.markdown("""
         <div class='stat-card'>
-            <div class='stat-number'>98%</div>
-            <div class='stat-label'>Accuracy Rate</div>
+            <div class='stat-number'>Prototype</div>
+            <div class='stat-label'>Not benchmarked</div>
         </div>
     """, unsafe_allow_html=True)
 
 with col2:
     st.markdown("""
         <div class='stat-card'>
-            <div class='stat-number'>5K+</div>
-            <div class='stat-label'>Resumes Analyzed</div>
+            <div class='stat-number'>Demo</div>
+            <div class='stat-label'>Synthetic examples</div>
         </div>
     """, unsafe_allow_html=True)
 
