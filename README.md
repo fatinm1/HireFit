@@ -1,3 +1,5 @@
+> **Prototype:** No published benchmark establishes skill-extraction accuracy or usage counts. Local model loading requires a separately downloaded checkpoint. Use synthetic resumes in public demos.
+
 # HireFit AI
 
 An AI-powered career assistant that helps job seekers with resume analysis, interview preparation, and job search tracking.
@@ -20,7 +22,7 @@ An AI-powered career assistant that helps job seekers with resume analysis, inte
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/HireFit.git
+git clone https://github.com/fatinm1/HireFit.git
 cd HireFit
 ```
 
